@@ -19,7 +19,7 @@ export HADOOP_CLASSPATH=${JAVA_HOME}/lib/tools.jar
 ```
 
 ### Chargement des fichiers de données
-Copiez les fichiers **AmazonReview*.tsv** dans Hadoop :
+Copiez les fichiers **AmazonReview*.tsv** dans votre répertoire Hadoop :
 ```sh
 bin/hdfs dfs -put /home4/tn837970/Documents/M1/Systeme_distribue/TP_Note/AmazonRev/*tsv /user/tn837970/input
 ```
